@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-"""sinesum.py Test Module
+"""sumesim.py Test Module
 
 Verify implementation of the Fourier sine series using numpy arrays.
 """
