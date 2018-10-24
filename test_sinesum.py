@@ -8,7 +8,7 @@ Verify implementation of the Fourier sine series using numpy arrays.
 import sinesum
 
 def test_dummy():
-    assert false, """Dummy test that always fails. Please replace with actual tests."""
+    assert False, """Dummy test that always fails. Please replace with actual tests."""
     #assert n = 1,
     #assert n =3, 
     #assert n =5, 
