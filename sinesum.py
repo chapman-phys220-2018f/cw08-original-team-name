@@ -39,7 +39,6 @@ def sn(t,n,T=(2*np.pi)):
     return (sum1)
 
 print(sn((np.pi),1000,(2*np.pi)))
-<<<<<<< HEAD:sumesin.py
 
 def plotsn(t, n, T=(2 * np.pi)):
 
