@@ -5,22 +5,26 @@
 Verify implementation of the Fourier sine series using numpy arrays.
 """
 
-import numpy.testing as np
+import numpy as np
 import sinesum
 
 
-def test_ft():
-    
-    np.assert_approx_equal(sinesum .ft(2,0), 0.0, significant=2)
-    
-    np.assert_approx_equal(sinesum .ft(2,0.5), 1.0, significant = 2)
-    
-    np.assert_approx_equal(sinesum .ft(2,-0.5), -1.0, significant = 2)
+
 
 def test_sn():
+    assert math.isclose(sinesum.sn(np.pi/2, 100000), 1.0, rel_tol=1e-5)
+
+def test_ft_2():
+    assert sinesum.func(np.pi/2) == 1
+
+def test_ft_0():
+    assert sinesum.func(0) == 0
+
+def test_ft_2():
+    assert sinesum.func(-np.pi/2) == -1
     
-    np.assert_approx_equal(sinesum .sn(2,0.5,100),1, significant = 2)
+
     
-    np.assert_approx_equal(sinesum .sn(2,-0.5,100),-1, significant = 2)
     
-    np.assert_approx_equal(sinesum .sn(2,0,100), 0 , significant = 2)
+    
+
