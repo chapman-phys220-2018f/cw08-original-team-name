@@ -7,6 +7,7 @@ Verify implementation of the Fourier sine series using numpy arrays.
 
 import numpy as np
 import sinesum
+import math
 
 
 
