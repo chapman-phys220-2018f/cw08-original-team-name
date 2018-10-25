@@ -34,8 +34,7 @@ Pro-tip: using git to manage conflicts on Jupyter notebooks is a pain. I recomme
 
 ## Assessment
 
-Coming soon...
-
+This assigment was different from other in the way that it requierd a bit more math, and it was really nice to see how the plots comes out in the end.
 **Natabael Alpay**
 
 ## Honor Pledge
