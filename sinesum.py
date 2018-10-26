@@ -37,7 +37,7 @@ def sn(t,n,T=(2*np.pi)):
         sum1 = sum1 + a
         list1.append(sum1)
         k = k + 1
-    return (list1[-1])
+    return (sum1)
 
 print(sn((np.pi),1000,(2*np.pi)))
 
