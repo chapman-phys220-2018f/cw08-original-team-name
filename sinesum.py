@@ -32,11 +32,12 @@ def sn(t,n,T=(2*np.pi)):
     sum1 = 0
     list1 = []
     while k !=n :
-        a = (4/np.pi)*((1/((2*k)-1)) * np.sin(((2*(2*k)-1)*np.pi * t)/T))
+       # a = (4/np.pi)*((1/((2*k)-1)) * np.sin(((2*(2*k)-1)*np.pi * t)/T))
+        a = (4/np.pi)*(1/(2*k-1))*(np.sin((2*(2*k-1)*np.pi*t)/(T)))
         sum1 = sum1 + a
         list1.append(sum1)
         k = k + 1
-    return (sum1)
+    return (list1[-1])
 
 print(sn((np.pi),1000,(2*np.pi)))
 
