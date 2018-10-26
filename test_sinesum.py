@@ -12,7 +12,7 @@ import math
 
 
 
-def test_sn():
+def test_sn1():
     assert math.isclose(sinesum.sn(np.pi/2, 100000), 1.0, rel_tol=1e-5)
 
 def test_ft_2():
