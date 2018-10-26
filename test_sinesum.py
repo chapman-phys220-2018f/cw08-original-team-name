@@ -12,16 +12,16 @@ import math
 
 
 
-def test_sn1():
+def sn1():
     assert math.isclose(sinesum.sn(np.pi/2, 100000), 1.0, rel_tol=1e-5)
 
-def test_ft_2():
+def ft1():
     assert sinesum.ft(np.pi/2) == 1
 
-def test_ft_0():
+def ft2():
     assert sinesum.ft(0) == 0
 
-def test_ft_2():
+def ft3():
     assert sinesum.ft(-np.pi/2) == -1
     
 
