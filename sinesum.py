@@ -25,7 +25,7 @@ def plotf(t, n, T=(2 * np.pi)):
     plt.grid()
 
     return plt.plot(f)
-    
+
 def sn(t,n,T=(2*np.pi)):
     k = 1
     a = 0
@@ -39,6 +39,14 @@ def sn(t,n,T=(2*np.pi)):
     return (sum1)
 
 print(sn((np.pi),1000,(2*np.pi)))
+
+def sn1(t, n, T=(2*np.pi)):
+    k = np.arange(1 , n+1 , 1 )
+    
+    s = (1/(2*k-1))*(np.sin((2*(2*k-1)*np.pi*t)/(T)))
+    
+    return (4/np.pi)*np.sn1(s)
+
 
 def plotsn(t, n, T=(2 * np.pi)):
 
