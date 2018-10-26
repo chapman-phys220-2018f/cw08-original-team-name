@@ -10,9 +10,10 @@ import sinesum
 import math
 
 
-
+"""In each one we just check for the ft function outputs -1 if x < 0 , 0 if x = 0, 1 if x > 0, and sn sum approximation """
 
 def sn1():
+ 
     assert math.isclose(sinesum.sn(np.pi/2, 100000), 1.0, rel_tol=1e-5)
 
 def ft1():
